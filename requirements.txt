@@ -1,0 +1,5 @@
+yt-dlp>=2025.1.1
+openai>=1.40.0          # 走 DashScope OpenAI 兼容端点，调 Qwen / Qwen-VL
+dashscope>=1.20.0       # Paraformer 语音识别
+python-dotenv>=1.0.0
+gradio>=6.0.0           # Web UI (app.py)

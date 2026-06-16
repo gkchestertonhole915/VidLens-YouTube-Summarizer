@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+
+  <!-- 装饰：右侧光晕 -->
+  <circle cx="1050" cy="80" r="180" fill="#3b82f6" opacity="0.10"/>
+  <circle cx="1120" cy="260" r="120" fill="#a78bfa" opacity="0.10"/>
+
+  <!-- YouTube 风格播放按钮 -->
+  <g transform="translate(90,110)">
+    <rect width="150" height="105" rx="24" fill="#FF0000"/>
+    <path d="M58 30 L108 52.5 L58 75 Z" fill="white"/>
+  </g>
+
+  <!-- 标题 -->
+  <text x="290" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" fill="#f8fafc">VidLens</text>
+  <text x="293" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="url(#accent)">YouTube Video Summarizer</text>
+  <text x="293" y="228" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#94a3b8">一键提取 字幕 · 语音 · 画面 → AI 结构化中文总结</text>
+
+  <!-- 底部技术标签 -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#cbd5e1">
+    <rect x="293" y="252" width="118" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+    <text x="352" y="275" text-anchor="middle">yt-dlp</text>
+    <rect x="423" y="252" width="140" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+    <text x="493" y="275" text-anchor="middle">Paraformer</text>
+    <rect x="575" y="252" width="150" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+    <text x="650" y="275" text-anchor="middle">Qwen / 百炼</text>
+    <rect x="737" y="252" width="110" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+    <text x="792" y="275" text-anchor="middle">Gradio</text>
+  </g>
+</svg>
